@@ -37,7 +37,7 @@ class OrderField extends Field
      * @param  string  $attribute
      * @return mixed
      */
-    protected function resolveAttribute($resource, $attribute)
+    protected function resolveAttribute($resource, $attribute): mixed
     {
         $request = app(NovaRequest::class);
 
